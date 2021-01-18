@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>SignUp Form</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<script
+		type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!-- Custom Theme files -->
+	<link href="style.css" rel="stylesheet" type="text/css" media="all" />
+	<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+
+	<!-- <link href="//fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i" rel="stylesheet"> -->
+
+</head>
+
+<body>
+
+	<div class="main-w3layouts wrapper">
+		<h1>SignUp Form</h1>
+		<div class="main-agileinfo">
+			<div class="agileits-top">
+				<form onsubmit="return signup()" action="#">
+					<input id="signup-name" class="text" type="text" placeholder="Username" required="">
+					<!-- <input id="signup-date_birth" class="text" type="text" placeholder="date of birth" required> -->
+
+					<input id="signup-email" class="text" type="email" placeholder="Email" required="">
+					<input id="signup-password" class="text" type="password" placeholder="Password" required="">
+					<input id="signup-number" class="text" type="text" placeholder="Phone Number" required="">
+					<!-- <input id="signup-address" class="text" type="text" placeholder="Complete Address" required=""> -->
+					<!-- <select name="GENDER" id="gender">
+						<option value="MALE">
+							MALE
+						</option>
+						<option value="female">FEMALE</option>
+					</select> -->
+					<!-- <input id="signup-re-password" class="text w3lpass" type="password" placeholder="Confirm Password" -->
+						<!-- required=""> -->
+					<select  id="signup-gender">
+						<option value="Male">MALE</option>
+						<option value="Female">FEMALE</option>
+					</select>
+					<div class="wthree-text">
+						<label class="anim">
+							<input type="checkbox" class="checkbox" required="">
+							<span>I Agree To The Terms & Conditions</span>
+						</label>
+						<div class="clear"> </div>
+					</div>
+
+					<input type="submit" value="SIGNUP">
+				</form>
+				<h1 id="res"></h1>
+				<p>Do You have an Account? <a href="login.html"> LogIn Now!</a></p>
+			</div>
+		</div>
+
+		<div class="colorlibcopy-agile">
+			<p> Signup Form Design by <a href="#">SK AHMER ALI</a></p>
+		</div>
+
+		<ul class="colorlib-bubbles">
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<script src="app.js"></script>
+</body>
+
+</html>
